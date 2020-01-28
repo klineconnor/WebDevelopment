@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Friend Stuff
+        </title>
+        <link rel="stylesheet" href="StyleSheets/FriendsStyle.css">
+    </head>
+    <body>
+        <h1 id="staticHeader">
+            Realm of Oblivion<a class="button" href="Home.html">Home</a><a class="button" href="FateGo.html">Fate GO</a><a class="button" href="Friends.html">Friends</a><a class="button" href="http://www.twitter.com/OblivionGamer27">Twitter</a> 
+        </h1>
+        <div>
+            <h1>
+                Friends
+            </h1>
+            <table id="friendTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Steam Username</th>
+                    <th>Switch code</th>
+                    <th>PSN Username</th>
+                </tr>
+            </table>
+
+            <form id="formID">
+                Name:<br>
+                <input type="text" name="name" value=""><br>
+                Steam Username:<br>
+                <input type="text" name="steamName" value=""><br>
+                Switch code:<br>
+                <input type="text" name="switchCode" value=""><br>
+                PSN username:<br>
+                <input type="text" name="PSNName" value=""><br>
+            </form>
+            <button onclick="addEntry()">Submit</button>
+        </div>
+        <script src="Scripts/FriendScript.js"></script>
+    </body>
+</html>
